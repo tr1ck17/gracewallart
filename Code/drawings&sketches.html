@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grace Wall Art</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="icon" href="../Logo/transparent-favicon.png" type="image/logo">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="paintings.html">Paintings</a></li>
+                <li><a href="drawings&sketches.html" class="active">Drawings & Sketches</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <br>
+        <h1>Grace Wall Art</h1>
+    </header>
+    <hr>
+    <main>
+
+        <section id="sketch-gallery-intro" class="sketch-gallery-intro">
+            <h2><b>Drawings & Sketches</b></h2>
+        </section>
+
+        <section class="sketch-gallery">
+
+            <div id="tinfoil" class="sketch-art-slot">
+                <img src="../Sketches/tinfoil.jpeg" alt="sketch-of-tinfoil"
+                data-caption="Sketch of tinfoil in my second semester of attending RIT. This was
+                an incredibly challenging project, because the surface was very reflective and there
+                were so many surfaces to catch. This sketch in particular, I am very proud of.">
+                <h3>'Tinfoil'</h3>
+                <p>Price: $500</p>
+            </div>
+
+            <div id="college-still-life" class="sketch-art-slot">
+                <img src="../Sketches/complex-still-life.jpeg" alt="miscellaneous-objects-on-a-table"
+                data-caption="This was another still life project from my second semester at RIT.
+                Not as complicated as some, but more-so than others. An enjoyable project nontheless.">
+                <h3>'College Still Life'</h3>
+                <p>Price: $500</p>
+            </div>
+
+            <div class="sketch-art-slot">
+                <img src="../Sketches/dear-mother.jpg" alt="sketch-of-mom"
+                data-caption="This is a sketch of my mother that I created when I was 15.">
+                <h3>'Dear Mother'</h3>
+                <p>Price: $500</p>
+            </div>
+
+            <div class="sketch-art-slot">
+                <img src="../Sketches/eye-looking.jpg" alt="open-eye-sketch"
+                data-caption="A sketch of an open eye made during some free time in high school.">
+                <h3>'Eye'</h3>
+                <p>Price: $500</p>
+            </div>
+
+            <div class="sketch-art-slot">
+                <img src="../Sketches/father-holding-daughter.jpg" alt="dad-holding-daughter"
+                data-caption="This is a sketch of my dad and I. it's based off a photo that was taken of us,
+                and I made it as a gift to give to my dad for his birthday.">
+                <h3>'Father-Daughter'</h3>
+                <p>Price: $500</p>
+            </div>
+
+            <div class="sketch-art-slot">
+                <img src="../Sketches/hands-opening-nut.jpg" alt="hands-peeling-an-orange"
+                data-caption="This was a small sketch of the process of someone peeling an orange.">
+                <h3>'Citrus'</h3>
+                <p>Price: $500</p>
+            </div>
+
+            <div class="sketch-art-slot">
+                <img src="../Sketches/old-war-man.jpg" alt="old-war-veteran-portrait"
+                data-caption="This is a sketch of an old war veteran from World War II.">
+                <h3>'Age'</h3>
+                <p>Price: $500</p>
+            </div>
+
+            <div class="sketch-art-slot">
+                <img src="../Sketches/old-woman-hugging-cat.jpg" alt="old-lady-hugging-cat"
+                data-caption="This is a sketch of an old woman and her cat.">
+                <h3>'Lady and Cat'</h3>
+                <p>Price: $500</p>
+            </div>
+
+            <div class="purchase-inquiry-container">
+                <a href="contact.html" class="purchase-inquiry-button">Interested in a Painting?</a>
+            </div>
+
+        </section>
+
+        <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <div class="modal-flex-container">
+                <img class="modal-content" id="modalImage" alt="modal-image">
+                <div id="caption"></div>
+            </div>
+        </div>
+
+    </main>
+    <hr>
+    <footer>
+        <p>@ 2024 Grace Wall Art</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grace Wall Art</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="icon" href="../Logo/transparent-favicon.png" type="image/logo">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="paintings.html" class="active">Paintings</a></li>
+                <li><a href="drawings&sketches.html">Drawings & Sketches</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <br>
+        <h1>Grace Wall Art</h1>
+    </header>
+    <hr>
+    <main>
+
+        <section id="painting-gallery-intro" class="painting-gallery-intro">
+            <h2><b>Paintings</b></h2>
+        </section>
+
+        <section class="painting-gallery">
+            
+            <div class="main-painting-slot-one">
+                <img src="../Paintings/jockey-racer.jpg" alt="jockey-riding-horse">
+                <div class="details">
+                    <div class="title">
+                        <h3>'The Race'</h3>
+                    </div>
+                    <div class="description">
+                        <p>
+                            This is a painting of a jockey on a horse during a race. I took inspiration from a race that I watched on tv, after I found 
+                            myself amazed at how physically detrimental the sport can be. The moment I saw was so intense, and I wanted to 
+                            attempt to capture it myself. I used acrylic paint on a canvas to create this piece. 
+                            I hope you enjoy it as much as I enjoyed the process.
+                        </p>
+                        <a href="contact.html" class="contact-button">Questions/Comments</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-painting-slot-two">
+                <img src="../Paintings/mary-and-baby-jesus.jpg" alt="mary-0holding-newborn-jesus">
+                <div class="details">
+                    <div class="title">
+                        <h3>'Birth'</h3>
+                    </div>
+                    <div class="description">
+                        <p>
+                            This is a painting of Mary holding baby Jesus. I took inspiration from a painting that I saw in a church, and I wanted to
+                            recreate my own depiction. This was created using oil and canvas, and took 96 hours to complete.
+                        </p>
+                        <a href="contact.html" class="contact-button">Questions/Comments</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-painting-slot-three">
+                <img src="../Paintings/long-hair-dog-water.jpg" alt="long-hair-dog-on-boat">
+                <div class="details">
+                    <div class="title">
+                        <h3>'Homefront'</h3>
+                    </div>
+                    <div class="description">
+                        <p>
+                            This is a painting of a terrier on a boat in the middle of a lake. 
+                            The original image is of a photo taken of this dog found on the internet.
+                        </p>
+                        <a href="contact.html" class="contact-button">Questions/Comments</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="compare-dinner" class="painting-art-slot">
+                <img src="../Paintings/mathematical-still-life.jpeg" alt="fruits-on-a-table"
+                data-caption="This was one of the first still life paintings that I created during
+                my first semester at RIT.">
+                <h3>'Compare Dinner'</h3>
+                <p>Price: $500</p>
+            </div>
+
+            <div class="painting-art-slot">
+                <img src="../Paintings/colorful-horse.jpg" alt="multi-colored-horse-headshot"
+                data-caption="The idea for this painting came from a photo online.">
+                <h3>'Headshot'</h3>
+                <p>Price: $500</p>
+            </div>
+
+            <div class="painting-art-slot">
+                <img src="../Paintings/horse-with-steam.jpg" alt="steaming-horse-shadow"
+                data-caption="This is an artistic depiction of a photo that I took of a horse getting
+                cleaned at the Saratoga race track.">
+                <h3>'Steam'</h3>
+                <p>Price: $500</p>
+            </div>
+
+            <div class="painting-art-slot">
+                <img src="../Paintings/mary-kissing-baby-jesus.jpg" alt="mary-kissing-jesus-on-forehead"
+                data-caption="Mary kissing baby jesus, inspired by cathedral art in chapel.">
+                <h3>'December 25'</h3>
+                <p>Price: $500</p>
+            </div>
+
+            <div class="painting-art-slot">
+                <img src="../Paintings/pear-on-a-table.jpg" alt="pear-on-a-table"
+                data-caption="This is the first still life I ever created with oil painting.">
+                <h3>'Still Life One'</h3>
+                <p>Price: $500</p>
+            </div>
+
+            <div class="painting-art-slot">
+                <img src="../Paintings/seashell-on-a-table.jpg" alt="seashell-on-a-table"
+                data-caption="This is the second still life I ever created with oil painting.">
+                <h3>'Still Life Two'</h3>
+                <p>Price: $500</p>
+            </div>
+
+            <div class="purchase-inquiry-container">
+                <a href="contact.html" class="purchase-inquiry-button">Interested in a Painting?</a>
+            </div>
+
+        </section>
+
+        <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <div class="modal-flex-container">
+                <img class="modal-content" id="modalImage" alt="modal-image">
+                <div id="caption"></div>
+            </div>
+        </div>
+
+    </main>
+    <hr>
+
+    <footer>
+        <p>@ 2024 Grace Wall Art</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Grace Wall, a medical illustration student and artist.">
+    <title>Grace Wall Art</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap" rel="stylesheet">
+    <link rel="icon" href="../Logo/transparent-favicon.png" type="image/logo">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html" class="active">Home</a></li>
+                <li><a href="paintings.html">Paintings</a></li>
+                <li><a href="drawings&sketches.html">Drawings & Sketches</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <br>
+        <h1>Grace Wall Art</h1>
+    </header>
+    <hr>
+    <main>
+        <section id="home" class="home">
+        </section>
+        <div class="slideshow-section">
+            <h2>Most Recent</h2>
+            <div class="slideshow-container">
+
+                <div class="dots-container">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="../Paintings/mathematical-still-life.jpeg" alt="fruits-on-a-table">
+                    <div class="text"><a href="paintings.html#compare-dinner">"Compare Dinner"</a></div>
+                </div>
+          
+                <div class="mySlides fade">
+                    <img src="../Sketches/complex-still-life.jpeg" alt="miscellaneous-objects-on-a-table">
+                    <div class="text"><a href="drawings&sketches.html#college-still-life">"College Still Life"</a></div>
+                </div>
+          
+                <div class="mySlides fade">
+                    <img src="../Sketches/tinfoil.jpeg" alt="sketch-of-tinfoil">
+                    <div class="text"><a href="drawings&sketches.html#tinfoil">"Tinfoil"</a></div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+        <section class="personal-info">
+            <div class="info-text">
+                <h2>About Me</h2>
+                <p>My name is Grace Wall, and I'm currently a freshman at
+                    Rochester Institute of Technology, majoring in
+                    medical illustration. I'm planning on entering
+                    the medical field from an artistic standpoint.
+                    I've been creating art my whole life, and some of it's
+                    even won competitions for the Saratoga Museum of Racing,
+                    as well as for the benefit of my high school.
+                    For the moment, I'm focused on developing my skills
+                    further, and to begin sharing my artwork with others.
+                </p>
+            </div>
+            <div class="info-image">
+                <img src="../Personal Picture/grace-wall-profile-picture.jpg" alt="grace-wall-profile-picture">
+            </div>
+        </section>
+        <br>
+
+    </main>
+    <hr>
+    <footer>
+        <p>@ 2024 Grace Wall Art</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

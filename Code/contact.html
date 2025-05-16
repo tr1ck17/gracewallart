@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grace Wall Art</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="icon" href="../Logo/transparent-favicon.png" type="image/logo">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="paintings.html">Paintings</a></li>
+                <li><a href="drawings&sketches.html">Drawings & Sketches</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+        <br>
+        <h1>Grace Wall Art</h1>
+    </header>
+    <hr>
+    <main>
+        <section class="contact-container">
+            <div class="map-container">
+                <iframe
+                    title="map-source" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.292548073073!2d-73.7851446845444!3d43.08313097914457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de0a1e1b1e1e1e%3A0x1e1e1e1e1e1e1e1e!2sSaratoga%20Springs%2C%20NY%2C%20USA!5e0!3m2!1sen!2sus!4v1611815472921!5m2!1sen!2sus&z=8"></iframe>
+            </div>
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                <div class="contact-title">
+                    <h2>Get In Touch</h2>
+                    <hr>
+                </div>
+                <div class="contact-inputs-container">
+                    <div class="inputs">
+                        <input type="hidden" name="access_key" value="b652eb52-30f6-4222-b053-fbce007b5ca3">
+                        <input id="name" type="text" name="name" placeholder="Your Name" class="contact-inputs" autocomplete="off" required>
+                        <input id="email" type="email" name="email" placeholder="Your Email" class="contact-inputs" autocomplete="off" required>
+                        <input id="subject" type="text" name="subject" placeholder="Question/Inquiry Subject" class="contact-inputs" autocomplete="off" required>
+                        <textarea id="message" name="message" placeholder="Your Message" class="contact-inputs" autocomplete="off" required></textarea>
+                    </div>
+                    <div class="image-container">
+                        <img src="../Personal Picture/grace-wall-painting-race.jpg" alt="brush-logo-image" class="contact-image">
+                    </div>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section class="logo-image">
+            <img src="../Logo/transparent-favicon.png" alt="grace-wall-art-favicon">
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>@ 2024 Grace Wall Art</p>
+    </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
